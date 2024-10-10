@@ -1,0 +1,6 @@
+langchain-community
+langchain-core
+langchain-text-splitters
+tqdm~=4.66.4
+ollama
+langchain
