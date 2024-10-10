@@ -1,0 +1,124 @@
+{
+  "name": "Machine_Perception_Lecture_Quiz",
+  "version": "1.0.0",
+  "description": "Quiz for the lecture Machine Perception",
+  "data": [
+    {
+      "question": "In a direct time-of-flight (ToF) laser rangefinder or scanner the results of distance measurements",
+      "answers": [
+        "greatly depend on the optical properties of the observed surface, particularly the roughness of the surface.",
+        "little depend on the optical properties of the observed surface.",
+        "greatly depend on the optical properties of the observed surface, particularly the absorbtion coefficient."
+      ],
+      "correct": "little depend on the optical properties of the observed surface."
+    },
+    {
+      "question": "Encoders are:",
+      "answers": [
+        "optoelectronic sensors that convert rotary motion into electrical signals to determine the exact angular position",
+        "optoelectronic sensors that convert rotary motion into electrical signals to determine the angular position or number of revolutions, and rotational speed.",
+        "optomechanical sensors that encode the revolutions of the drive into specific binary code."
+      ],
+      "correct": "optoelectronic sensors that convert rotary motion into electrical signals to determine the angular position or number of revolutions, and rotational speed."
+    },
+    {
+      "question": "The PointNet neural architecture allows to process unstructured point clouds. This architecture",
+      "answers": [
+        "models point clouds using the Bird's Eye View concept.",
+        "models point clouds with CNN layers and a softmax function.",
+        "models point clouds with MLP layers and a symmetric (i.e. permutation invariant) function (such as max pooling)."
+      ],
+      "correct": "models point clouds with MLP layers and a symmetric (i.e. permutation invariant) function (such as max pooling)."
+    },
+    {
+      "question": "x = f_x * X/Z +c_x, y = f_y * Y/Z + c_y This formula concerns the simple camera model. It allows to",
+      "answers": [
+        "to determine the position of a scene point p(x, y), which is the counterpart of the image point P (X, Y, Z)",
+        "to determine the x,y position of the image centre.",
+        "to determine the position of a point p(x, y), which is the image of a real scene point P (X, Y, Z)"
+      ],
+      "correct": "to determine the position of a point p(x, y), which is the image of a real scene point P (X, Y, Z)"
+    },
+    {
+      "question": "External sensors are used to",
+      "answers": [
+        "identify quantities external to the robot itself and which are important features of the observed environment",
+        "identify quantities external to the robot itself, which are salient features of the environment",
+        "measure values that directly influence the behavior of the robot in its environment"
+      ],
+      "correct": "identify quantities external to the robot itself and which are important features of the observed environment"
+    },
+    {
+      "question": "In computer vision point feature desriptors are:",
+      "answers": [
+        "compact representation of image region around keypoint.",
+        "compact representation of the entire image the point belongs to.",
+        "matrix representation of the spectral properties of an image patch."
+      ],
+      "correct": "compact representation of image region around keypoint."
+    },
+    {
+      "question": "Radial distortion due to imperfect lenses in a camera are modelled using",
+      "answers": [
+        "isoclines",
+        "polynomials",
+        "differential equations."
+      ],
+      "correct": "polynomials"
+    },
+    {
+      "question": "The term internal sensors refers to:",
+      "answers": [
+        "the internal states of the robot, such as acceleration or wheel rotation angle.",
+        "internal values used in the (hardware) control system of the robot.",
+        "the internal states of the robot, such as distances to objects."
+      ],
+      "correct": "the internal states of the robot, such as acceleration or wheel rotation angle."
+    },
+    {
+      "question": "Image rectification is a process used in stereo vision systems. It is aimed at",
+      "answers": [
+        "straightening the images so that the surfaces of both images are orthogonal.",
+        "straightening the images so that the surfaces of both images belong to the same plane and the corresponding pixel rows on both matrices are collinear.",
+        "warping the images so that the pixel rows on both matrices match each other."
+      ],
+      "correct": "straightening the images so that the surfaces of both images belong to the same plane and the corresponding pixel rows on both matrices are collinear."
+    },
+    {
+      "question": "In a method of visual place recognition using the Bag of Visual Words approach",
+      "answers": [
+        "each visual word within the vocabulary points to a list of images where that word occurs.",
+        "each visual word within the vocabulary provides a probability of belonging to a distinct place.",
+        "each visual word within the vocabulary points to a distinct place."
+      ],
+      "correct": "each visual word within the vocabulary points to a list of images where that word occurs."
+    },
+    {
+      "question": "This matrix K = [f, s, p_x; 0, alpha * f, p_y; 0, 0, 1] defines:",
+      "answers": [
+        "the Kalman matrix of a camera",
+        "the extrinsic calibration parameters of a simple camera model.",
+        "the intrinsic calibration parameters of a simple camera model."
+      ],
+      "correct": "the intrinsic calibration parameters of a simple camera model."
+    },
+    {
+      "question": "The Iterative Closest Point algorithm serves the purpose of computing a transformation (translation, rotation) that minimizes the distance between two groups of points. Points in these two groups",
+      "answers": [
+        "do not need to be associated beforehand but need to have point descriptors for association by ICP.",
+        "need to be associated beforehand by another algorithm, ICP only minimises the distance criteria.",
+        "do not need to be associated beforehand (no matching is needed)."
+      ],
+      "correct": "do not need to be associated beforehand (no matching is needed)."
+    },
+    {
+      "question": "Visual Odometry aims at",
+      "answers": [
+        "estimating a global, consistent path of the agent, but without an explicit map.",
+        "estimating a global, consistent map and agent path.",
+        "recovering the path incrementally, optimizing only over the last n camera poses (windowed bundle adjustment)."
+      ],
+      "correct": "recovering the path incrementally, optimizing only over the last n camera poses (windowed bundle adjustment)."
+    }
+  ]
+}
